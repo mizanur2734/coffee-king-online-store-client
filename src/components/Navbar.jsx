@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../assets/banner/logo_black-9.png";
 import { LuSquareMenu } from "react-icons/lu";
 import { IoCloseSharp } from "react-icons/io5";
+import { Link } from "react-router";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -47,9 +48,9 @@ const Navbar = () => {
               </a>
             </li>
           ))}
-          <button className="bg-indigo-600 text-white py-2 px-6 rounded md:ml-8 hover:bg-indigo-500 duration-300">
-            Hire
-          </button>
+          <Link to={"/signIn"} className="bg-indigo-600 text-white py-2 px-6 rounded md:ml-8 hover:bg-indigo-500 duration-300">
+            Sign In
+          </Link>
         </ul>
       </div>
     </div>

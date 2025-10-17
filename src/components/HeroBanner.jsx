@@ -55,7 +55,10 @@ const HeroBanner = () => {
         {slides.map((slide, index) => (
           <div key={index} className="relative">
             {/* Responsive Image */}
-            <img src={slide.img} className="w-full md:h-[500px] h-[300px] object-cover mx-auto -ml-30 md:ml-0" />
+            <img
+              src={slide.img}
+              className="w-full md:h-[500px] h-[300px] object-cover mx-auto -ml-30 md:ml-0"
+            />
 
             {/* Overlay */}
             <div className="md:absolute top-[25%] md:top-1/2 transform -translate-y-0 md:-translate-y-1/2 text-black space-y-2 md:space-y-4">
@@ -81,10 +84,14 @@ const HeroBanner = () => {
               </p>
 
               <div className="flex flex-col md:flex-row mt-6 md:mt-10 gap-4 md:gap-6 md:w-full w-3/6">
-                <button className="px-6 py-3 md:px-8 md:py-4 bg-black text-white text-sm sm:text-base md:text-base font-bold  w-5/6 md:w-auto">
+                <button
+                  className="px-6 py-3 md:px-8 md:py-4 bg-black text-white text-sm sm:text-base md:text-base font-bold  w-5/6 md:w-auto
+                border-transparent hover:border-black transition-all duration-300 border-2 cursor-pointer hover:bg-white hover:text-black"
+                >
                   Read more
                 </button>
-                <button className="px-6 py-3 md:px-8 md:py-4 bg-[#c0aa83] text-white text-sm sm:text-base md:text-base font-bold w-full  md:w-auto">
+                <button
+                      className="px-6 py-3 md:px-8 md:py-4 bg-[#c0aa83] text-white text-sm sm:text-base md:text-base font-bold w-full  md:w-auto  border-transparent hover:border-black transition-all duration-300 border-2 cursor-pointer hover:bg-white hover:text-black" >
                   View products
                 </button>
               </div>
