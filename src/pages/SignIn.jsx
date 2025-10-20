@@ -4,6 +4,7 @@ import { TfiEmail } from "react-icons/tfi";
 import { NavLink, useLocation, useNavigate } from "react-router";
 import logo from "../assets/banner/icons8-google-48.png";
 import { AuthContext } from "../contexts/AuthContext";
+import Swal from "sweetalert2";
 
 const SignIn = () => {
   const { signIn } = use(AuthContext);
