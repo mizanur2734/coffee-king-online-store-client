@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "category": "coffee",
+    "title": "MyCoffeeShop Cup",
+    "description": "Duis et aliquam orci. Vivamus augue quam, ...",
+    "price": 800,
+    "image": "/public/image/coffee_item1-300x300.jpg"
+  },
+  {
+    "id": 2,
+    "category": "green coffee",
+    "title": "Green Africana",
+    "description": "Duis et aliquam orci. Vivamus augue quam, ...",
+    "price": 800,
+    "image": "/public/image/coffee_item2-600x600.jpg"
+  },
+  {
+    "id": 3,
+    "category": "italian",
+    "title": "Accessory",
+    "description": "Duis et aliquam orci. Vivamus augue quam, ...",
+    "price": 500,
+    "image": "/public/image/coffee_item7-300x300.jpg"
+  },
+  {
+    "id": 4,
+    "category": "roasted coffee",
+    "title": "Ephiopian Aroma",
+    "description": "Duis et aliquam orci. Vivamus augue quam, ...",
+    "price": 800,
+    "image": "/public/image/coffee_item3-600x600.jpg"
+  },
+  {
+    "id": 5,
+    "category": "coffee",
+    "title": "Ephiopian Aroma",
+    "description": "Duis et aliquam orci. Vivamus augue quam, ...",
+    "price": 1000,
+    "image": "/public/image/coffee_item3-600x600.jpg"
+  },
+  {
+    "id": 6,
+    "category": "green coffee",
+    "title": "Coffee bean",
+    "description": "Duis et aliquam orci. Vivamus augue quam, ...",
+    "price": 700,
+    "image": "/public/image/coffee_item8-300x300.jpg"
+  },
+  {
+    "id": 7,
+    "category": "italian",
+    "title": "Coffee candy",
+    "description": "Duis et aliquam orci. Vivamus augue quam, ...",
+    "price": 600,
+    "image": "/public/image/coffee_item6-300x300.jpg"
+  },
+  {
+    "id": 8,
+    "category": "roasted coffee",
+    "title": "Coffee bean",
+    "description": "Duis et aliquam orci. Vivamus augue quam, ...",
+    "price": 800,
+    "image": "/public/image/coffee_item8-300x300.jpg"
+  },
+  {
+    "id": 9,
+    "category": "coffee",
+    "title": "Green Africana",
+    "description": "Duis et aliquam orci. Vivamus augue quam, ...",
+    "price": 6.99,
+    "image": "/public/image/coffee_item2-600x600.jpg"
+  },
+  {
+    "id": 10,
+    "category": "green coffee",
+    "title": "Coffee candy",
+    "description": "Duis et aliquam orci. Vivamus augue quam, ...",
+    "price": 800,
+    "image": "/public/image/coffee_item6-300x300.jpg"
+  },
+  {
+    "id": 11,
+    "category": "italian",
+    "title": "Coffea Canephora",
+    "description": "Duis et aliquam orci. Vivamus augue quam, ...",
+    "price": 700,
+    "image": "/public/image/coffee_item5.jpg"
+  },
+  {
+    "id": 12,
+    "category": "roasted coffee",
+    "title": "Accessory",
+    "description": "Duis et aliquam orci. Vivamus augue quam, ...",
+    "price": 500,
+    "image": "/public/image/coffee_item7-300x300.jpg"
+  },
+  {
+    "id": 13,
+    "category": "coffee",
+    "title": "American Black Coffee",
+    "description": "Duis et aliquam orci. Vivamus augue quam, ...",
+    "price": 1200,
+    "image": "/public/image/coffee_item4.jpg"
+  },
+  {
+    "id": 14,
+    "category": "green coffee",
+    "title": "Coffea Canephora",
+    "description": "Duis et aliquam orci. Vivamus augue quam, ...",
+    "price": 800,
+    "image": "/public/image/coffee_item5.jpg"
+  }
+  ,
+  {
+    "id": 15,
+    "category": "roasted coffee",
+    "title": "Coffee candy",
+    "description": "Duis et aliquam orci. Vivamus augue quam, ...",
+    "price": 1000,
+    "image": "/public/image/coffee_item6-300x300.jpg"
+  }
+]

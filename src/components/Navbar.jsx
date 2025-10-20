@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="md:flex justify-between items-center bg-white py-4 md:px-8 px-4">
         {/* Logo */}
         <div>
-          <img className="w-[140px]" src={logo} alt="logo" />
+          <img className="w-[140px] md:h-14" src={logo} alt="logo" />
         </div>
 
         {/* Menu Icon for Mobile */}
