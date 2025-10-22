@@ -2,7 +2,7 @@ import React from "react";
 import image from "../assets/banner/coffee-cup-1.png";
 const Contact = () => {
   return (
-    <div className="container mx-auto py-16 md:mt-24 px-4 md:px-8 mb-48">
+    <div className="container mx-auto py-16 mt-6 md:mt-24 px-4 md:px-8 mb-5 md:mb-24">
       <div className="flex flex-col md:flex-row md:items-center items-start justify-between md:gap-10">
         {/* Left Section */}
         <div 
