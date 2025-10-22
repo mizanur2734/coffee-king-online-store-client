@@ -5,6 +5,9 @@ import CoffeeCard from './CoffeeCard';
 import RecentProducts from './RecentProducts';
 import MarImage from './MarImage';
 import Contact from './Contact';
+import CountSection from './CountSection';
+import Gallery from './Gallery';
+;
 
 
 const Home = () => {
@@ -26,6 +29,8 @@ const Home = () => {
             </div>
             <MarImage></MarImage>
             <RecentProducts></RecentProducts>
+            <Gallery></Gallery>
+            <CountSection></CountSection>
             <Contact></Contact>
         </div>
     );
