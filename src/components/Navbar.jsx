@@ -1,16 +1,19 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import logo from "../assets/banner/logo_black-9.png";
 import { LuSquareMenu } from "react-icons/lu";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-router";
+import { AuthContext } from "../contexts/AuthContext";
 
 const Navbar = () => {
+  const { user} = useContext(AuthContext)
   const [open, setOpen] = useState(false);
 
   const Links = [
     { name: "Home", link: "/" },
     { name: "AddCoffee", link: "/addCoffe" },
-    { name: "ABOUT", link: "/" },
+   { name: "My Added Coffees", link: `/my-added-coffees/${user?.email}` },
+   { name: "My Orders", link: '/my-orders' },
     { name: "BLOG", link: "/" },
     { name: "CONTACT", link: "/" },
   ];

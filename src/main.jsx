@@ -11,6 +11,8 @@ import AuthProvider from './contexts/AuthProvider.jsx'
 import AddCoffee from './pages/AddCoffee.jsx'
 import axios from 'axios'
 import CoffeeDetails from './components/CoffeeDetails.jsx'
+import MyAddedCoffees from './pages/MyAddedCoffees.jsx'
+import MyOrders from './pages/MyOrders.jsx'
 
 
 
@@ -25,8 +27,12 @@ const router = createBrowserRouter([
         Component: Home,
       },
       {
-        path: "/addCoffe",
+        path: "addCoffe",
         Component: AddCoffee
+      },
+      {
+        path: "my-orders",
+        Component: MyOrders
       },
       {
         path: "coffee/:id",
@@ -40,7 +46,12 @@ const router = createBrowserRouter([
       {
         path: "signUp",
         Component: SignUp
-      }
+      },
+      {
+        path: "my-added-coffees/:email",
+        loader: ({params}) => axios(`${import.meta.env.VITE_API_URL}/my-coffees/${params.email}`),
+        Component: MyAddedCoffees
+      },
     ]
   },
 ]);
